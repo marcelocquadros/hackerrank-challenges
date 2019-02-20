@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.marceloquadros</groupId>
+  <artifactId>hackerrank-challenges</artifactId>
+  <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>sock-merchant</module>
+        <module>counting-valleys</module>
+      <module>jumping-on-the-clouds</module>
+    </modules>
+    <packaging>pom</packaging>
+  <name>hackerrank</name>
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+
+    </dependencies>
+  </dependencyManagement>
+
+</project>
