@@ -11,18 +11,27 @@ public class Solution {
             return n;
         }
 
-        int count = 0;
+        long totalOcurrency = 0;
+        int countOcurrencyPerString = 0;
         int index = 0;
 
-        for(int i = 0; i < n; i++){
-            if(index == s.length()){
-                index = 0;
-            }
+        for(int i = 0; i < s.length(); i++){
             if(s.charAt(index++) == 'a'){
-                count ++;
+                countOcurrencyPerString ++;
             }
         }
-        return count;
+
+        long mod = (n % s.length());
+
+        totalOcurrency = (n / s.length() * countOcurrencyPerString);
+
+        for(int i = 0; i < mod; i++){
+            if(s.charAt(i) == 'a'){
+                totalOcurrency++;
+            }
+        }
+
+        return totalOcurrency;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
