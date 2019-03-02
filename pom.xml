@@ -9,6 +9,7 @@
     <module>counting-valleys</module>
     <module>jumping-on-the-clouds</module>
     <module>repeated-string</module>
+      <module>2d-array</module>
   </modules>
   <packaging>pom</packaging>
   <name>hackerrank</name>
