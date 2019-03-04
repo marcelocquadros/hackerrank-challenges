@@ -11,6 +11,8 @@
     <module>repeated-string</module>
       <module>2d-array</module>
     <module>ctci-array-left-rotation</module>
+      <module>new-year-chaos</module>
+      <module>making-anagrams</module>
   </modules>
   <packaging>pom</packaging>
   <name>hackerrank</name>
