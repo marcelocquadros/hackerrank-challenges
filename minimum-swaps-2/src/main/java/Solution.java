@@ -8,7 +8,6 @@ import java.util.regex.*;
 
 public class Solution {
 
-    private static int count = 0;
     // Complete the minimumSwaps function below.
     static int minimumSwaps(int[] arr) {
         int countSwaps = 0;
