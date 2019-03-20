@@ -13,6 +13,8 @@
     <module>ctci-array-left-rotation</module>
       <module>new-year-chaos</module>
       <module>making-anagrams</module>
+      <module>minimum-swaps-2</module>
+      <module>crush</module>
   </modules>
   <packaging>pom</packaging>
   <name>hackerrank</name>
