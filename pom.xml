@@ -17,6 +17,7 @@
       <module>crush</module>
       <module>two-strings</module>
     <module>ctci-ransom-note</module>
+      <module>diagonal-difference</module>
   </modules>
   <packaging>pom</packaging>
   <name>hackerrank</name>
